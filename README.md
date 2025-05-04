@@ -385,10 +385,10 @@ with torch.no_grad():
 ![image](https://github.com/user-attachments/assets/3377ccbe-d4b4-435d-876f-8ec2cdce3640)
 
 ## 🌟 Key Insights
-**High Predictive Accuracy:** The neural network achieved **98.02%** accuracy on the training set and **97.37%** on the test set, indicating excellent generalization to new data.
-**Model Effectiveness:** A simple architecture with one hidden layer was sufficient for achieving **high classification accuracy.**
-**Preprocessing Importance:** Standardizing features with **StandardScaler improved model stability and performance** by preventing large-range attributes from dominating the learning process.
-**PyTorch Efficiency:** Using PyTorch, along with **GPU acceleration (CUDA),** accelerated training over 100 epochs, making the process more efficient.
+- **High Predictive Accuracy:** The neural network achieved **98.02%** accuracy on the training set and **97.37%** on the test set, indicating excellent generalization to new data.
+- **Model Effectiveness:** A simple architecture with one hidden layer was sufficient for achieving **high classification accuracy.**
+- **Preprocessing Importance:** Standardizing features with **StandardScaler improved model stability and performance** by preventing large-range attributes from dominating the learning process.
+- **PyTorch Efficiency:** Using PyTorch, along with **GPU acceleration (CUDA),** accelerated training over 100 epochs, making the process more efficient.
 
 ## ☁️ Technologies and Tools
 - **Kaggle** – Dataset source

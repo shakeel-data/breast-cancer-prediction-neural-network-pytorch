@@ -4,7 +4,7 @@
 Breast cancer is a leading cause of death among women, where early and accurate detection is vital for improving survival rates. Traditional methods are often costly, time-consuming, and error-prone. Using machine learning and neural networks, we can build models that offer faster, more reliable, and scalable diagnosis. This enhances clinical decision-making, supports early intervention, and makes AI a powerful tool in life-saving healthcare applications.
 
 ## 📘 Project Overview
-This project focuses on breast cancer prediction using a neural network implemented with PyTorch. It uses a structured dataset containing quantitative features extracted from digitized fine needle aspirate (FNA) test results, such as cell radius, texture, and perimeter. The objective is to classify tumors as malignant (cancerous) or benign (non-cancerous). The process includes data preprocessing, feature scaling, model design, training, and evaluation. This project showcases how deep learning can support early diagnosis and improve clinical outcomes through data-driven decision-making in healthcare.
+This project focuses on breast cancer prediction using a neural network built in PyTorch within the **Spyder IDE environment**. It uses a structured dataset containing quantitative features extracted from digitized fine needle aspirate (FNA) test results, such as cell radius, texture, and perimeter.The workflow includes **data preprocessing, feature scaling, model design, training, and evaluation.** This project demonstrates the power of **deep learning** in enabling early and accurate diagnosis, contributing to improved **clinical outcomes in healthcare**.
 
 ## 🎯 Key Objectives
 - **Understand Data:** Explore the **Breast Cancer Wisconsin dataset** to identify key features and their distributions.
@@ -16,9 +16,9 @@ This project focuses on breast cancer prediction using a neural network implemen
 
 ## 📁 Data Sources
 - Kaggle
-  <a href="">csv</a>
+  <a href="https://github.com/shakeel-data/Breast-cancer-prediction-nn-pytorch/blob/main/Clinical_data.csv">csv</a>
 - Python
-  <a href="">codes</a>
+  <a href="https://github.com/shakeel-data/Breast-cancer-prediction-nn-pytorch/blob/main/Breast%20cancer%20prediction%20using%20neural%20network%20in%20pytorch.py">codes</a>
 
 ## 🔧 Project Workflow
 ### 1. Importing Dependencies and Data load
@@ -118,6 +118,7 @@ df.head()
 | 84300903 | M         | 19.69        | 21.25         | 130.00          | 1203.0     | 0.10960          | 0.15990           | 0.1974          | 0.12790              | ... | 25.53          | 152.50           | 1709.0      | 0.1444            | 0.4245             | 0.4504           | 0.2430                | 0.3613          | 0.08758                   |
 | 84348301 | M         | 11.42        | 20.38         | 77.58           | 386.1      | 0.14250          | 0.28390           | 0.2414          | 0.10520              | ... | 26.50          | 98.87            | 567.7       | 0.2098            | 0.8663             | 0.6869           | 0.2575                | 0.6638          | 0.17300                   |
 | 84358402 | M         | 20.29        | 14.34         | 135.10          | 1297.0     | 0.10030          | 0.13280           | 0.1980          | 0.10430              | ... | 16.67          | 152.20           | 1575.0      | 0.1374            | 0.2050             | 0.4000           | 0.1625                | 0.2364          | 0.07678                   |
+
 **5 rows × 32 columns**
 
 **Last few rows of Data**
@@ -132,6 +133,7 @@ df.tail()
 | 926954 | M         | 16.60        | 28.08         | 108.30          | 858.1      | 0.08455          | 0.10230           | 0.09251         | 0.05302              | ... | 34.12          | 126.70           | 1124.0      | 0.11390           | 0.30940            | 0.3403           | 0.1418                | 0.2218          | 0.07820                   |
 | 927241 | M         | 20.60        | 29.33         | 140.10          | 1265.0     | 0.11780          | 0.27700           | 0.35140         | 0.15200              | ... | 39.42          | 184.60           | 1821.0      | 0.16500           | 0.86810            | 0.9387           | 0.2650                | 0.4087          | 0.12400                   |
 | 92751  | B         | 7.76         | 24.54         | 47.92           | 181.0      | 0.05263          | 0.04362           | 0.00000         | 0.00000              | ... | 30.37          | 59.16            | 268.6       | 0.08996           | 0.06444            | 0.0000           | 0.0000                | 0.2871          | 0.07039                   |
+
 **5 rows × 32 columns**
 
 **Checking Null values**
@@ -173,6 +175,7 @@ df.isnull().sum()
 | concave points\_worst     | 0          |
 | symmetry\_worst           | 0          |
 | fractal\_dimension\_worst | 0          |
+
 **dtype: int64**
 
 **Statistical information**
@@ -190,6 +193,7 @@ df.describe()
 | **50%**   | 9.06e+05 | 13.370000    | 18.840000     | 86.240000       | 551.100000  | 0.095870         | 0.092630          | 0.061540        | 0.033500             | 0.179200       | ... | 14.970000     | 25.410000      | 97.660000        | 686.500000  | 0.131300          | 0.211900           | 0.226700         | 0.099930              | 0.282200        | 0.080040                  |
 | **75%**   | 8.81e+06 | 15.780000    | 21.800000     | 104.100000      | 782.700000  | 0.105300         | 0.130400          | 0.130700        | 0.074000             | 0.195700       | ... | 18.790000     | 29.720000      | 125.400000       | 1084.000000 | 0.146000          | 0.339100           | 0.382900         | 0.161400              | 0.317900        | 0.092080                  |
 | **max**   | 9.11e+08 | 28.110000    | 39.280000     | 188.500000      | 2501.000000 | 0.163400         | 0.345400          | 0.426800        | 0.201200             | 0.304000       | ... | 36.040000     | 49.540000      | 251.200000       | 4254.000000 | 0.222600          | 1.058000           | 1.252000         | 0.291000              | 0.663800        | 0.207500                  |
+
 **8 rows × 31 columns**
 
 **Load the breast cancer dataset**
@@ -388,7 +392,7 @@ with torch.no_grad():
 
 ## ☁️ Technologies and Tools
 - **Kaggle** – Dataset source
-- **Spyder** – Interactive environment for coding and presenting analysis
+- **Spyder IDE** – Interactive environment for coding and presenting analysis
 - **Python**
   - Libraries: `numpy`, `pandas`, `matplotlib`, `seaborn`
 - **Machine Learning** – Model development and evaluation

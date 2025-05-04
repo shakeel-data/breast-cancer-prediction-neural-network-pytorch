@@ -41,7 +41,7 @@ df = pd.read_csv("file-path")
 print('Read sucessfully')
 ```
 
-### 2. Device configuration
+### 2. 💻 Device configuration
 
 ```python
 # check for CUDA availability
@@ -49,7 +49,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Using device: {device}")
 ```
 
-### 3. Data collection and Preprocessing
+### 3. 🗂️ Data collection and Preprocessing
 
 ```python
 print("Breast cancer data -  rows:",df.shape[0]," columns:", df.shape[1])
@@ -275,7 +275,7 @@ print(X_test.shape)
 ```
 ![image](https://github.com/user-attachments/assets/bb1c11be-5325-40f7-9aa0-504629b35b65)
 
-### 6. Standardize the data using Standard sclaer
+### 6. 📐 Standardize the data using Standard sclaer
 ```python
 scaler = StandardScaler()
 X_train = scaler.fit_transform(X_train)
@@ -380,75 +380,24 @@ with torch.no_grad():
 ```
 ![image](https://github.com/user-attachments/assets/3377ccbe-d4b4-435d-876f-8ec2cdce3640)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## 🌟 Key Insights
+**High Predictive Accuracy:** The neural network achieved **98.02%** accuracy on the training set and **97.37%** on the test set, indicating excellent generalization to new data.
+**Model Effectiveness:** A simple architecture with one hidden layer was sufficient for achieving **high classification accuracy.**
+**Preprocessing Importance:** Standardizing features with **StandardScaler improved model stability and performance** by preventing large-range attributes from dominating the learning process.
+**PyTorch Efficiency:** Using PyTorch, along with **GPU acceleration (CUDA),** accelerated training over 100 epochs, making the process more efficient.
+
+## ☁️ Technologies and Tools
+- **Kaggle** – Dataset source
+- **Spyder** – Interactive environment for coding and presenting analysis
+- **Python**
+  - Libraries: `numpy`, `pandas`, `matplotlib`, `seaborn`
+- **Machine Learning** – Model development and evaluation
+  - Scikit-learn: `train_test_split`, `StandardScaler`
+- **Deep Learning**
+  - PyTorch: `torch`, `torch.nn`, `torch.optim`
+
+## ✅ Conclusion
+This project successfully developed a **PyTorch-based neural network for classifying breast cancer tumors**. Through a structured workflow of data preprocessing, model training, and evaluation, the model achieved over 97% accuracy on the test dataset. This result highlights the **power of neural networks, even simple architectures,** in addressing complex medical classification tasks when applied to relevant features. 
+
+The project demonstrates how deep learning tools can aid in **medical diagnosis, showcasing the potential of reliable predictive models based on quantitative image-derived data**. The model’s strong generalization suggests it could be valuable in **computer-aided breast cancer screening systems.**
 

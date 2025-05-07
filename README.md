@@ -99,6 +99,7 @@ Data columns (total 33 columns):**
 | symmetry\_worst           | 569                | float64   |
 | fractal\_dimension\_worst | 569                | float64   |
 | Unnamed: 32               | 0                  | float64   |
+
 **dtypes: float64(31), int64(1), object(1)**
 
 **Drop the column**

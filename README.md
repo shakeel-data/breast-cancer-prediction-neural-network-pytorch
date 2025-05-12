@@ -1,4 +1,4 @@
-# 🎗 Breast Cancer Prediction Project | Neural Network + PyTorch csldmwodmwo9564 xskmlmdwlm dwldqokwo sdmsldm cskcmlmdo kwmdwmdl66 xksdmmdm4545 dmmdm 
+# 🎗 Breast Cancer Prediction Project | Neural Network + PyTorch csldmwodmwo9564 xskmlmdwlm dwldqokwo sdmsldm cskcmlmdo kwmdwmdl66 xksdmmdm4545 
 ![image](https://github.com/user-attachments/assets/091e92d8-9414-4edc-bd2c-5981ee215fa5)
 
 Breast cancer is a leading cause of death among women, where early and accurate detection is vital for improving survival rates. Traditional methods are often costly, time-consuming, and error-prone. Using machine learning and neural networks, we can build models that offer faster, more reliable, and scalable diagnosis. This enhances clinical decision-making, supports early intervention, and makes AI a powerful tool in life-saving healthcare applications.

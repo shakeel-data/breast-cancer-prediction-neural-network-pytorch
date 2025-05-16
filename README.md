@@ -398,11 +398,10 @@ with torch.no_grad():
   - Libraries: `numpy`, `pandas`, `matplotlib`, `seaborn`
 - **Machine Learning** – Model development and evaluation
   - Scikit-learn: `train_test_split`, `StandardScaler`
-- **Deep Learning**
+- **Deep Learning** – Neural network 
   - PyTorch: `torch`, `torch.nn`, `torch.optim`
 
 ## ✅ Conclusion
 This project successfully developed a **PyTorch-based neural network for classifying breast cancer tumors**. Through a structured workflow of data preprocessing, model training, and evaluation, the model achieved over 97% accuracy on the test dataset. This result highlights the **power of neural networks, even simple architectures,** in addressing complex medical classification tasks when applied to relevant features. 
 
 The project demonstrates how deep learning tools can aid in **medical diagnosis, showcasing the potential of reliable predictive models based on quantitative image-derived data**. The model’s strong generalization suggests it could be valuable in **computer-aided breast cancer screening systems.**
-

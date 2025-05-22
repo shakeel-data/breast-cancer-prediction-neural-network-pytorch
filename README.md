@@ -1,7 +1,7 @@
 # 🎗 Breast Cancer Prediction Project | Neural Network + PyTorch
 ![image](https://github.com/user-attachments/assets/091e92d8-9414-4edc-bd2c-5981ee215fa5)
 
-Breast cancer is a leading cause of **death among women**, where early and accurate detection is vital for improving survival rates. Traditional methods are often costly, time-consuming, and error-prone. Using machine learning and neural networks, we can build models that **offer faster, more reliable, and scalable diagnosis.** This enhances clinical decision-making, supports early intervention, and makes AI a powerful tool in life-saving healthcare applications.
+Breast cancer is a leading cause of **death among women**, where early and accurate detection is vital for improving survival rates. Traditional methods are often costly, time-consuming, and error-prone. Using machine learning and neural networks, we can build models that **offer faster, more reliable, and scalable diagnosis.** This enhances clinical decision-making, supports early intervention, and makes AI a powerful tool in **life-saving healthcare applications.**
 
 ## 📘 Project Overview
 This project focuses on breast cancer prediction using a neural network built in PyTorch within the **Spyder IDE environment**. It uses a structured dataset containing quantitative features extracted from digitized fine needle aspirate (FNA) test results, such as cell radius, texture, and perimeter.The workflow includes **data preprocessing, feature scaling, model design, training, and evaluation.** This project demonstrates the power of **deep learning** in enabling early and accurate diagnosis, contributing to improved **clinical outcomes in healthcare**.

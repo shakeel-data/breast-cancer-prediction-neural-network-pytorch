@@ -354,7 +354,7 @@ for epoch in range(num_epochs):
     correct = (predicted == y_train.view(-1,1)).float().sum()
     accuracy = correct/y_train.size(0)
 
-  if (epoch+1) % 10 == 0:
+if (epoch+1) % 10 == 0:
     print(f"Epoch [{epoch+1}/{num_epochs}], Loss : {loss.item():.4f}, Accuracy: {accuracy.item() * 100:.2f}%")
 ```
 ![image](https://github.com/user-attachments/assets/f6c8a1c3-bf2c-488c-881e-d5aa55700db0)

@@ -348,7 +348,7 @@ for epoch in range(num_epochs):
   loss.backward()
   optimizer.step()
 
-  # claculate accuracy
+# claculate accuracy
   with torch.no_grad():
     predicted = outputs.round()
     correct = (predicted == y_train.view(-1,1)).float().sum()

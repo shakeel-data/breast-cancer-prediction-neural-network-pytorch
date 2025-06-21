@@ -21,7 +21,7 @@ This project focuses on breast cancer prediction using a neural network built in
   <a href="https://github.com/shakeel-data/Breast-cancer-prediction-nn-pytorch/blob/main/Breast%20cancer%20prediction%20using%20neural%20network%20in%20pytorch.py">codes</a>
 
 ## 🔧 Project Workflow
-### 1. Importing Dependencies and Data load
+### 1. 📥 Importing Dependencies and Data load
 
 ```python
 import pandas as pd

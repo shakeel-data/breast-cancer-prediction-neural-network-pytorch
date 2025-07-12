@@ -216,7 +216,7 @@ print(y)
 
 ### 4. 📊 Exploratory Data Analysis (EDA)
 
-**Heatmap**
+### Heatmap
 ```python
 plt.figure(figsize=(20, 10))
 sns.heatmap(df.describe().T, annot=True, fmt=".2f", cmap="coolwarm", linewidths=0.5)

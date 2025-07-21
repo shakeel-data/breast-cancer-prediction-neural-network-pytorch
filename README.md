@@ -398,7 +398,7 @@ with torch.no_grad():
   - Libraries: `numpy`, `pandas`, `matplotlib`, `seaborn`
 - **Machine Learning** – Model development and evaluation
   - Scikit-learn: `train_test_split`, `StandardScaler`
-- **Deep Learning** – Neural network 
+- **Deep Learning** – Neural Network 
   - PyTorch: `torch`, `torch.nn`, `torch.optim`
 
 ## ✅ Conclusion

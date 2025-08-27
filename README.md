@@ -391,7 +391,7 @@ with torch.no_grad():
 - **Preprocessing Importance:** Standardizing features with **StandardScaler improved model stability and performance** by preventing large-range attributes from dominating the learning process.
 - **PyTorch Efficiency:** Using PyTorch, along with **GPU acceleration (CUDA),** accelerated training over 100 epochs, making the process more efficient.
 
-## ☁️ Technologies and Tools
+## ☁️ Tools and Technologies
 - **Kaggle** – Dataset source
 - **Spyder IDE** – Interactive environment for coding and presenting analysis
 - **Python** – Data analysis, manipulation and Visualization
